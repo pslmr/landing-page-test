@@ -154,7 +154,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 250px;
 }
 
 .cta {
@@ -186,4 +186,17 @@ a {
   font-size: 13px;
   color: #e5e7eb;
   margin: 0;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.footer p {
+  color: #e5e7eb;
+  font-size: 12px;
 }
