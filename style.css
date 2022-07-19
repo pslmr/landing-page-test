@@ -149,3 +149,41 @@ a {
   font-weight: 700;
   text-align: right;
 }
+
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.cta {
+  display: flex;
+  background-color: #3882f6;
+  align-items: center;
+  border-radius: 7px;
+  padding: 30px 150px;
+  gap: 80px;
+}
+
+.cta-textbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta .btn {
+  border: 2px solid #ffffff;
+  font-size: 15px;
+}
+
+.cta h5 {
+  font-size: 20px;
+  color: #e5e7eb;
+  margin: 0;
+}
+
+.cta p {
+  font-size: 13px;
+  color: #e5e7eb;
+  margin: 0;
+}
