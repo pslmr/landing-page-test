@@ -126,3 +126,26 @@ a {
   text-align: center;
   font-size: 11px;
 }
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  width: 700px;
+}
+
+.ref-text {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: right;
+}
